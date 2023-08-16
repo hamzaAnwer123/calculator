@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+    <input type="text" class="inputs" id="result">
+    <div class="items">
+
+    <div class="row1">
+<button  onclick="clearResult()"  id="results" class="num ac">AC</button>
+<button onclick="undoInput()" class="num ac">C</button>
+<button onclick=" getName('%')" class="num ac">%</button>
+<button onclick=" getName('/')"  class="num oparator">/</button>
+    </div>
+    <div class="row2">
+<button onclick=" getName('7')" class="num number">7</button>
+<button onclick=" getName('8')" class="num number">8</button>
+<button onclick=" getName('9')" class="num number">9</button>
+<button onclick=" getName('*')" class="num oparator">x</button>
+    </div>
+    <div class="row3">
+<button onclick=" getName('4')" class=" num number">4</button>
+<button onclick=" getName('5')" class=" num number">5</button>
+<button onclick=" getName('6')" class=" num number">6</button>
+<button onclick=" getName('-')" class=" num oparator">-</button>
+    </div>
+    <div class="row4">
+<button onclick=" getName('1')" class=" num number">1</button>
+<button onclick=" getName('2')" class=" num number">2</button>
+<button onclick=" getName('3')" class=" num number">3</button>
+<button onclick=" getName('+')" class=" num oparator">+</button>
+    </div>
+    <div class="row5">
+<button onclick=" getName('00')" class="num dobbul ">00</button>
+<button onclick=" getName('0')" class="num number">0</button>
+<button onclick=" getName('.')" class="num dot">.</button>
+<button onclick=" getResult()" class="num oparator">=</button>
+</div>
+    </div>
+</div>
+
+</body>
+<script src="app.js"></script>
+</html>
+
+
